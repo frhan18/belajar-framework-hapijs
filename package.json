@@ -1,0 +1,16 @@
+{
+  "name": "coba-framework-hapijs",
+  "version": "1.0.0",
+  "description": "Belajar membuat web server menggunakan framework Hapi.js",
+  "main": "server.js",
+  "repository": "https://github.com/frhan18/coba-framework-hapijs.git",
+  "author": "Farhan",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.0",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  }
+}
